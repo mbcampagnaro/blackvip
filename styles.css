@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.content {
+    max-width: 700px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #FFD700;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 16px;
+    color: #e0e0e0;
+}
+
+strong {
+    color: #ffffff;
+}
+
+.benefits {
+    text-align: left;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.alert {
+    background: #C40D01;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 25px 0;
+    display: inline-block;
+}
+
+.about {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #bbbbbb;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #C40D01, #ff2b06);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #C40D01;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a0a0a;
+    font-size: 0.9rem;
+    color: #666;
+}
