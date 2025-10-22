@@ -107,8 +107,8 @@ strong {
 }
 
 .cta-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 12px #C40D01;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(196, 13, 1, 0.3);
 }
 
 footer {
