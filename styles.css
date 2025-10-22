@@ -7,6 +7,11 @@
 
 body {
     background-color: #000;
+    background-image: url('Images/LPFundo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #fff;
     line-height: 1.6;
     display: flex;
@@ -27,11 +32,25 @@ body {
     text-align: center;
 }
 
+.logo {
+    width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 h1 {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 10px;
     color: #ffffff;
+}
+
+.yellow {
+    color: #FFD700;
+}
+
+.red {
+    color: #C40D01;
 }
 
 .subtitle {
@@ -55,7 +74,7 @@ strong {
     margin: 20px auto;
     background: rgba(255, 255, 255, 0.05);
     padding: 20px;
-    border-radius: 12px;
+    border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -64,7 +83,7 @@ strong {
     color: #fff;
     font-weight: 600;
     padding: 10px 15px;
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 25px 0;
     display: inline-block;
 }
@@ -83,7 +102,7 @@ strong {
     font-weight: 700;
     text-decoration: none;
     padding: 14px 28px;
-    border-radius: 50px;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
@@ -98,4 +117,15 @@ footer {
     background: #0a0a0a;
     font-size: 0.9rem;
     color: #666;
+}
+
+.footer-link {
+    color: #FFD700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
 }
